@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.questions{
+    margin: 1rem;
+}
+.option{
+    margin: 1rem;
+}
+.heading{
+background-color: grey;
+font-size: 3rem;
+display: inline-block;
+padding: 2rem 25rem;
+margin: auto;
+}
+.wrap{
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 3rem;
+    width: fit-content;
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+.btn{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px black solid;
+    font-size: 2rem;
+    background-color: rgb(153, 230, 52);
+    cursor: pointer;
+    border-radius: 3rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+.result{
+    background-image: url(../media/projec2.webp);
+    background-size: contain;
+    width: 19rem;
+    height: 11rem;
+    position: relative;
+    /* margin-right: 3rem; */
+}
+.out{font-size: 1.5rem;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: fit-content;
+    padding: 1.5rem;
+    background-color: aliceblue;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+.op{
+    opacity: 0;
+}
+.op1{
+    opacity: 1;
+}
+.op2{
+    opacity: 10%;
+}
